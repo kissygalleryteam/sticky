@@ -30,7 +30,7 @@ sticky 组件参考了 [Arale Sticky](http://aralejs.org/sticky/) 的实现，�
 
 ## API说明
 
-* new Sticky({config})
+#### new Sticky({config})
 
 - `el` {String|HTMLElement} 
 	
@@ -54,7 +54,7 @@ sticky 组件参考了 [Arale Sticky](http://aralejs.org/sticky/) 的实现，�
 
 2) Sticky 对于 position: static or relative 且 display 不为 none 的情况下, 会在当前元素后面插入宽高与元素相同的占位符，防止页面布局被破坏。
 
-* Sticky.fixed(el)
+#### Sticky.fixed(el)
 
 - `el` {String|HTMLElement} 
 	
