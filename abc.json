@@ -1,0 +1,14 @@
+{
+    "name": "sticky",
+    "version": "1.0",
+    "desc": "",
+    "cover": "",
+    "tag":"定位",
+    "author": {
+        "name": "函谷",
+        "email": "hangu.mh@taobao.com",
+        "page": ""
+    },
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
