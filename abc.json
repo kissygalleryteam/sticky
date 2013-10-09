@@ -1,9 +1,9 @@
 {
     "name": "sticky",
     "version": "1.0",
-    "desc": "",
+    "desc": "position:sticky 的 JS 实现",
     "cover": "",
-    "tag":"定位",
+    "tag":"sticky, fixed兼容",
     "author": {
         "name": "函谷",
         "email": "hangu.mh@taobao.com",

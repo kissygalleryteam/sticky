@@ -10,7 +10,7 @@ sticky 组件参考了 [Arale Sticky](http://aralejs.org/sticky/) 的实现，�
 
 * 版本：1.0
 * 作者：函谷
-* 标签：
+* 标签：sticky, fixed兼容
 * demo：[http://gallery.kissyui.com/sticky/1.0/demo/index.html](http://gallery.kissyui.com/sticky/1.0/demo/index.html)
 
 ## 初始化组件
