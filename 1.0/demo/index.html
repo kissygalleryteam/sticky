@@ -59,13 +59,13 @@ h2{padding:30px 10px 0;text-align:center;}
         var $ = S.all;
 
         $('<div id="nav">顶层fixed导航</div>').appendTo("body");
-        Sticky.fix('#nav');
+        Sticky.fixed('#nav');
 
         $('<div id="reset">改变content高度</div>').appendTo("body");
-        Sticky.fix('#reset');
+        Sticky.fixed('#reset');
         
         $('<div id="refresh">刷新</div>').appendTo("body");
-        Sticky.fix('#refresh');
+        Sticky.fixed('#refresh');
         
         $('#reset').on('click', function() {
         	$('#content').css({
