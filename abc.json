@@ -1,12 +1,12 @@
 {
     "name": "sticky",
-    "version": "1.0",
+    "version": "1.1",
     "desc": "position:sticky 的 JS 实现",
     "cover": "",
     "tag":"sticky, fixed兼容",
     "author": {
         "name": "函谷",
-        "email": "hangu.mh@taobao.com",
+        "email": "hangu.mh@alibaba-inc.com",
         "page": ""
     },
     "type": "kissy-gallery",
