@@ -7,7 +7,7 @@ kg/sticky/2.0.0/index
 /**
  * @fileoverview 
  * @author 函谷<hangu.mh@taobao.com>
- * @version 2.0.0
+ * @version 1.1
  * @module sticky
  **/
 KISSY.add('kg/sticky/2.0.0/index',function (S, UA, Node, Base) {
@@ -224,7 +224,7 @@ KISSY.add('kg/sticky/2.0.0/index',function (S, UA, Node, Base) {
             	// 当距离小于等于预设的值时
                 // 将元素设为 fix 状态
                 if (!el.data('sticked') && distance <= top) {
-                	var left = el.offset().left;           // 2.0.0bugfix：IE7下addPlaceHolder会导致offset错误
+                	var left = el.offset().left;           // 1.1bugfix：IE7下addPlaceHolder会导致offset错误
                     this._addPlaceholder();
 
                     el.css({
@@ -243,7 +243,7 @@ KISSY.add('kg/sticky/2.0.0/index',function (S, UA, Node, Base) {
             	// 当距离大于等于预设的值时
                 // 将元素设为 fix 状态
                 if (!el.data('sticked') && distance >= _top) {
-                	var left = el.offset().left;           // 2.0.0bugfix：IE7下addPlaceHolder会导致offset错误
+                	var left = el.offset().left;           // 1.1bugfix：IE7下addPlaceHolder会导致offset错误
                     this._addPlaceholder();
 
                     el.css({
